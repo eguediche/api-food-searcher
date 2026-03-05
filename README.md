@@ -85,6 +85,6 @@ La réponse JSON contient le nom, la photo, la catégorie, l'origine, les ingré
 
 ## Auteur / Author
 
-**Votre nom / Your name** — Développeur Web & Mobile Full Stack
+**Eden G** — Développeur Web & Mobile Full Stack
 
-[GitHub](https://github.com/votre-username) · [Portfolio](https://votre-username.github.io) · [LinkedIn](https://linkedin.com/in/votre-profil)
+[GitHub](https://github.com/eguediche) · [Portfolio](https://eguediche.github.io) · [LinkedIn](https://linkedin.com/in/eguediche)
