@@ -1,89 +1,90 @@
-# 🍽️ API Food Searcher
+# API Food Searcher
 
-> Application web de recherche de recettes de cuisine, développée en HTML / CSS / JavaScript vanilla, utilisant l'API publique [TheMealDB](https://www.themealdb.com/api.php).
+Application web de recherche de recettes, développée en HTML / CSS / JavaScript vanilla, connectée à l'API publique [TheMealDB](https://www.themealdb.com/api.php).
 
----
-
-## 🧭 Aperçu
-
-**API Food Searcher** permet de rechercher n'importe quel plat du monde entier et d'afficher en temps réel :
-
-- 📸 Une photo du plat
-- 🧂 La liste complète des ingrédients avec leurs quantités
-- 📋 Les instructions de préparation étape par étape
-- 🏷️ La catégorie et l'origine géographique du plat
-- 🎥 Un lien vers une vidéo YouTube de la recette
+*A recipe search web app built with vanilla HTML / CSS / JavaScript, powered by the public [TheMealDB](https://www.themealdb.com/api.php) API.*
 
 ---
 
-## 🛠️ Stack technique
+## Aperçu / Overview
 
-| Technologie | Rôle |
+À partir d'un nom de plat, l'application affiche en temps réel une photo, la liste des ingrédients avec leurs quantités, les instructions de préparation, la catégorie et l'origine du plat, ainsi qu'un lien YouTube vers la recette.
+
+*Type in a dish name and the app instantly shows a photo, full ingredient list with measurements, step-by-step instructions, the dish category and origin, and a YouTube link.*
+
+---
+
+## Stack technique / Tech Stack
+
+| Technologie | Rôle / Role |
 |---|---|
-| HTML5 | Structure sémantique de l'interface |
-| CSS3 | Mise en page, design et responsive |
-| JavaScript (ES6+) | Logique applicative, appels API asynchrones |
-| [TheMealDB API](https://www.themealdb.com/api.php) | Source de données des recettes |
-| Google Fonts | Typographies (Poppins, Space Mono, Unbounded…) |
+| HTML5 | Structure de l'interface / UI structure |
+| CSS3 | Mise en page & responsive / Layout & responsive |
+| JavaScript ES6+ | Logique & appels API / Logic & API calls |
+| [TheMealDB API](https://www.themealdb.com/api.php) | Source de données / Data source |
+| Google Fonts | Poppins, Space Mono, Unbounded… |
 
 ---
 
-## ✨ Fonctionnalités
-
-- 🔍 **Recherche en temps réel** — saisie d'un nom de plat, résultat instantané via fetch API
-- 📦 **Affichage structuré** — ingrédients en tableau, instructions en liste ordonnée
-- 🌍 **Base de données internationale** — milliers de recettes issues de cuisines du monde entier
-- 📱 **Interface responsive** — adaptée mobile et desktop
-- 🔗 **Lien YouTube intégré** — pour suivre la recette en vidéo
-
----
-
-## 📁 Structure du projet
+## Structure du projet / Project Structure
 
 ```
 api-food-searcher/
-├── index.html      # Point d'entrée de l'application
-├── styles.css      # Feuille de styles complète
-└── app.js          # Logique JavaScript & appels API
+├── index.html      # Point d'entrée / Entry point
+├── styles.css      # Feuille de styles / Stylesheet
+└── app.js          # Logique JavaScript & appels API / JS logic & API calls
 ```
 
 ---
 
-## 🚀 Installation & lancement
+## Installation & lancement / Getting Started
 
-Aucune dépendance ni serveur requis. Le projet fonctionne directement dans le navigateur.
+Aucune dépendance ni serveur requis — le projet s'ouvre directement dans le navigateur.
+
+*No dependencies or server needed — open it straight in the browser.*
 
 ```bash
-# 1. Cloner le dépôt
+# Cloner le dépôt / Clone the repository
 git clone https://github.com/votre-username/api-food-searcher.git
 
-# 2. Ouvrir le fichier dans un navigateur
+# Ouvrir dans le navigateur / Open in the browser
 open index.html
 ```
 
-> **Conseil :** Pour éviter d'éventuels problèmes CORS en développement, lancez un serveur local avec l'extension **Live Server** (VS Code) ou via :
-> ```bash
-> npx serve .
-> ```
+Pour éviter d'éventuels problèmes CORS en développement, utilise un serveur local via l'extension **Live Server** (VS Code) ou :
+
+*To avoid potential CORS issues in development, run a local server with the **Live Server** VS Code extension or:*
+
+```bash
+npx serve .
+```
 
 ---
 
-## 🔌 Utilisation de l'API
-
-Le projet consomme l'API publique et gratuite **TheMealDB** :
+## Utilisation de l'API / API Usage
 
 ```
 GET https://www.themealdb.com/api/json/v1/1/search.php?s={nom_du_plat}
 ```
 
-La réponse JSON contient le nom, la photo, la catégorie, l'origine, les ingrédients (jusqu'à 20), les instructions et le lien YouTube de la recette.
+La réponse JSON contient le nom, la photo, la catégorie, l'origine, les ingrédients (jusqu'à 20) avec leurs quantités, les instructions et le lien YouTube.
+
+*The JSON response includes the name, photo, category, origin, up to 20 ingredients with measurements, cooking instructions, and a YouTube link.*
 
 ---
 
-## 📸 Démonstration
+## Exemples / Demo
 
-| Recherche | Résultat affiché |
+| Recherche / Search | Résultat / Result |
 |---|---|
 | `arrabiata` | Penne Arrabiata — Pasta / Italian |
 | `sushi` | Sushi — Japanese |
 | `chicken` | Chicken Handi — Indian |
+
+---
+
+## Auteur / Author
+
+**Votre nom / Your name** — Développeur Web & Mobile Full Stack
+
+[GitHub](https://github.com/votre-username) · [Portfolio](https://votre-username.github.io) · [LinkedIn](https://linkedin.com/in/votre-profil)
