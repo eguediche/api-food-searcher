@@ -91,7 +91,7 @@ La réponse JSON contient le nom, la photo, la catégorie, l'origine, les ingré
 
 ---
 
-## Side note
+## Note de fin / Side note
 
 Ce projet a été réaliser lors de la fin de ma première année de dev web, marquant le début de mon apprentissage dans le back, je pense que c'est un bon repère de mon parcours
 
