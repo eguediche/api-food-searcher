@@ -88,3 +88,7 @@ La réponse JSON contient le nom, la photo, la catégorie, l'origine, les ingré
 **Eden G** — Développeur Web & Mobile Full Stack
 
 [GitHub](https://github.com/eguediche) · [Portfolio](https://eguediche.github.io) · [LinkedIn](https://linkedin.com/in/eguediche)
+
+
+Ce projet a été réaliser lors de la fin de ma première année de dev web, marquant le début de mon apprentissage dans le back, je pense que c'est un bon repère de mon parcours
+*This project was carried out at the end of my first year of web dev, marking the beginning of my learning in the back, I think it’s a good landmark of my journey*
