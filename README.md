@@ -87,7 +87,7 @@ La réponse JSON contient le nom, la photo, la catégorie, l'origine, les ingré
 
 **Eden G** — Développeur Web & Mobile Full Stack
 
-[GitHub](https://github.com/eguediche) · [Portfolio](https://eguediche.github.io) · [LinkedIn](https://linkedin.com/in/eguediche)
+[GitHub](https://github.com/eguediche) · [Portfolio](https://eguediche.github.io) · [LinkedIn](https://linkedin.com/in/eguediche) (linkedIn not implemented yet)
 
 ---
 
